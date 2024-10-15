@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth
+}
+
+@font-face {
+  font-family: Lexend;
+  src: url(./assets/font/Lexend.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/font/Poppins.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/font/Poppins.ttf);
+}
+
+@font-face {
+  font-family: Poppins_Regular;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins_SemiBold;
+  src: url(./assets/font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins_Bold;
+  src: url(./assets/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Basier;
+  src: url(./assets/font/Basier.ttf);
+}
+
+@font-face {
+  font-family: Walsheim;
+  src: url(./assets/font/Walsheim.otf);
+}
+
+body {
+  font-family: Poppins !important;
+  color: #061C38;
+}
+
+.lexend {
+  font-family: Lexend !important;
+}
+
+.basier {
+  font-family: Basier !important;
+}
+
+.walsheim {
+  font-family: Walsheim !important;
+}
+
+.regular {
+  font-family: Poppins_Regular !important;
+}
+
+.semibold {
+  font-family: Poppins_SemiBold !important;
+}
+
+.bold {
+  font-family: Poppins_Bold !important;
+}
+
+.myContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+@media (max-width: 1380px) {
+  .myContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .myContainer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .myContainer {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
